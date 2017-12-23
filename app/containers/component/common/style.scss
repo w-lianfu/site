@@ -1,0 +1,28 @@
+@import '../global/color.scss';
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  background-color: $likeblue;
+  height: 45px;
+
+  nav {
+    display: inline-flex;
+    list-style: none;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      width: 120px;
+    }
+
+    &:last-child {
+      a {
+        width: 80px;
+      }
+    }
+  }
+
+}
